@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * La configuration de base de votre installation WordPress.
  *
@@ -57,6 +57,7 @@ define('AUTH_SALT',        '(JEf4c%;*Y:g[kj3F%%lut?jz@<ff>T ,D|!o/3Hb.g&LJ|7^t%x
 define('SECURE_AUTH_SALT', '6dG}8,pD? )~]LH6eLo4c  B=be{3pGTmEW{m&(T5qLsLC:5B}S]SI[[o_Wo,N1,');
 define('LOGGED_IN_SALT',   '>wf{]w6;+jBR5M;t+:4^KFJyeh{xv./z^irZu0xI3Ig`avBq+25YkOzNHc$VY<n&');
 define('NONCE_SALT',       'J]wkw-suMb|P>X|< ^y_Ns|VYn^q~>s%c6xpUCR{hio@DZqWuE!+%rOA7%U^kyag');
+define( 'JETPACK_DEV_DEBUG', true);
 /**#@-*/
 
 /**
@@ -82,7 +83,7 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* C’est tout, ne touchez pas à ce qui suit ! */
 
